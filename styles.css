@@ -101,28 +101,16 @@ body {
   .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-img {
-    max-width: 100%;
-    height: auto;
+  .banner-img figure img {
+    width: calc(100% + 32px);
+    height: 245px;
+    margin: 0px -16px;
   }
-  .heading-text {
-    font-size: 1.5rem;
-  }
+  .heading-text,
   .heading-text-org {
     font-size: 1.5rem;
-    color: rgb(233, 90, 8);
   }
   .tittle-text {
     font-size: 0.875rem;
-    color: rgba(0, 0, 0, 0.5);
-    max-width: 100%;
   }
-  /* .banner-left {
-    max-width: 361px;
-    max-height: 147px;
-  } */
-  /* .banner-img {
-    max-width: 393.18px;
-    max-height: 245px;
-  } */
 }
