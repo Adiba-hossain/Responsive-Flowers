@@ -122,19 +122,51 @@ body {
 .plant-container-items h6 {
   font-weight: 700;
 }
-
+/* Plants Lover Section */
+.plant-lover-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  margin-top: 210px;
+}
+#plant-lover-img {
+  max-width: 540px;
+  max-height: 597px;
+}
+.plant-lover-left {
+  position: relative;
+}
+#badge {
+  position: absolute;
+  top: -130px;
+  left: 350px;
+  max-width: 286px;
+  max-height: 286px;
+  filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.5));
+}
+.plant-lover-right h4 {
+  font-size: 50px;
+  line-height: 68px;
+}
+.plant-lover-right ul li {
+  line-height: 27px;
+  padding: 20px;
+  max-width: 540px;
+  max-height: 108px;
+  margin-left: 30px;
+}
 /* Responsive Styles */
 @media screen and (max-width: 576px) {
   /* Responsive Nav */
-  /* .container {
-    padding: 0 16px;
-  } */
   .container {
+    padding: 0rem 1rem;
+  }
+  /* .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 16px;
     box-sizing: border-box;
-  }
+  } */
   .nav-logo figure img {
     max-width: 63px;
     max-height: 38px;
@@ -169,7 +201,6 @@ body {
     gap: 20px;
     text-align: center;
   }
-  /* ghjbjjjjh */
   .plant-section {
     margin-top: 4.06rem;
   }
@@ -194,5 +225,32 @@ body {
   }
   .plant-container-items h6 {
     font-weight: 700;
+  }
+  /* Plants Lover Section */
+  .plant-lover-container {
+    flex-direction: column;
+  }
+  #badge {
+    display: none;
+  }
+  #plant-lover-img {
+    max-width: 358px;
+    max-height: 396px;
+    padding: 0px 16px;
+  }
+  .plant-lover-right h4 {
+    font-size: 24px;
+    line-height: 0px;
+  }
+  .plant-lover-right ul li {
+    line-height: 15px;
+    padding: 3px;
+    max-width: 361px;
+    max-height: 234px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  br {
+    display: none;
   }
 }
