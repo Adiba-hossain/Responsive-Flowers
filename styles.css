@@ -91,21 +91,20 @@ body {
   max-height: 355px;
 }
 /* This is plant section */
-.plant-section,
-.latest-deal-content {
+.plant-section {
   margin-top: 7.5rem;
 }
-.plant-content,
+.plant-content, /* This is plant+latest-deal section */
 .latest-deal-content {
   text-align: center;
   margin-bottom: 3.0625rem;
 }
-.plant-content h5,
+.plant-content h5, /* This is plant+latest-deal section */
 .latest-deal-content h5 {
   font-size: 3.125rem;
   margin-bottom: 1rem;
 }
-.plant-content h5 span,
+.plant-content h5 span, /* This is plant+latest-deal section */
 .latest-deal-content h5 span {
   font-size: 3.125rem;
   color: rgb(233, 90, 8);
@@ -129,9 +128,9 @@ body {
 /* Plants Lover Section */
 .plant-lover-container {
   display: flex;
-  gap: 60px;
+  gap: 3.75rem;
   align-items: center;
-  margin-top: 210px;
+  margin-top: 11.25rem;
 }
 #plant-lover-img {
   max-width: 540px;
@@ -170,8 +169,11 @@ body {
   margin-left: 30px;
 }
 /* Latest Deals Section */
+.latest-deal-content {
+  margin-top: 7.5rem;
+}
 .latest-deal-container {
-  margin-bottom: 40px;
+  margin-bottom: 160px;
 }
 .a,
 .c {
@@ -183,7 +185,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  padding-top: 103px;
+  padding-top: 90px;
   border-radius: 22px;
   font-size: 20px;
 }
@@ -200,7 +202,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  padding-top: 211.565px;
+  padding-top: 190px;
   border-radius: 22px;
   font-size: 40px;
 }
@@ -265,7 +267,6 @@ body {
 .footer-list-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(5, auto); */
   gap: 30px;
 }
 .footer-list-2 a {
@@ -294,12 +295,6 @@ body {
   .container {
     padding: 0rem 1rem;
   }
-  /* .container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 16px;
-    box-sizing: border-box;
-  } */
   .nav-logo figure img {
     max-width: 63px;
     max-height: 38px;
@@ -327,6 +322,12 @@ body {
   }
   .tittle-text {
     font-size: 0.8rem;
+  }
+  .banner-left h5 br {
+    display: block;
+  }
+  .banner-left p {
+    margin-top: 10px;
   }
   /* Plant Responsive */
   .plant-container {
@@ -371,27 +372,28 @@ body {
   /* Plants Lover Section */
   .plant-lover-container {
     flex-direction: column;
+    margin-top: 16px;
   }
   #badge {
     display: none;
   }
   #plant-lover-img {
-    max-width: 358px;
-    max-height: 396px;
-    padding: 0px 16px;
+    max-width: 100%;
+    min-height: 396px;
   }
   .plant-lover-right h4 {
     font-size: 24px;
     line-height: 0px;
+    margin-left: -12px;
+    margin-bottom: 30px;
   }
   .plant-lover-right ul li {
-    line-height: 15px;
-    padding: 3px;
+    line-height: 14px;
     max-width: 361px;
-    max-height: 234px;
-    margin-left: 30px;
-    margin-top: 30px;
-    overflow: hidden;
+    max-height: 220px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 15px;
   }
   br {
     display: none;
