@@ -147,6 +147,16 @@ body {
   max-width: 286px;
   max-height: 286px;
   filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.5));
+  animation: spin 5s linear infinite;
+}
+/* Keyframes for spin */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .plant-lover-right h4 {
   font-size: 50px;
